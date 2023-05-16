@@ -1,0 +1,22 @@
+{
+  "name": "api-ejemplo",
+  "version": "0.0.1",
+  "description": "primer ejemplo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main3.js",
+    "dev":"nodemon main3.js"
+  },
+  "author": "Raul Cervantes",
+  "correo": "raulcer.rmc@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "pg": "^8.10.0"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.6.6"
+  }
+}
